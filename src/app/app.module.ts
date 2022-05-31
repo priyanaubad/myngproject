@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { TodosComponent } from './My component/todos/todos.component';
-import { TodosItemComponent } from './mycomponents/todos-item/todos-item.component';
+import { TodosComponent } from './Mycomponent/todos/todos.component';
+import { TodoItemComponent as TodoItemComponent } from './Mycomponent/todo-item/todo-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodosComponent,
-    TodosItemComponent
+    TodoItemComponent
   ],
   imports: [
     BrowserModule

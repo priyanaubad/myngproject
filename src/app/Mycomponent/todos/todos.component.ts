@@ -8,9 +8,9 @@ import { Todo } from "../../Todo";
 })
 export class TodosComponent implements OnInit {
 
-  Todos: Todo[];
+  todos: Todo[];
   constructor() {
-     this.Todos = [
+     this.todos = [
        {
          sno:  1,
          title: "This is title1",
